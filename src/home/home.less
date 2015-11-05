@@ -1,0 +1,28 @@
+#home {
+
+  h2 {
+    margin-bottom : 0;
+
+    + div{
+      font-size : 1rem;
+      margin-bottom : @small-space;
+    }
+  }
+
+  input[type=text], button{
+    padding : @small-space @medium-space;
+    border : 0;
+    color : @black;
+  }
+
+  button {
+    background : @yellow-dark;
+    font-weight : bold;
+    cursor : pointer;
+    transition : all @anim-duration;
+
+    &:hover {
+      background : @yellow-light;
+    }
+  }
+}

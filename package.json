@@ -1,0 +1,27 @@
+{
+  "name": "backbone-browserify-test",
+  "version": "0.0.1",
+  "description": "Basic single-page webapp test with Backbone, Browserify, Handlebars and Less",
+  "author": "Boris Graeff",
+  "license": "MIT",
+  "dependencies": {
+    "backbone": "^1.2.3",
+    "handlebars": "^4.0.3",
+    "hbsfy": "^2.3.1",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "cssnano": "^3.3.2",
+    "grunt": "0.4.5",
+    "grunt-browserify": "^4.0.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-less": "^0.6.4",
+    "grunt-contrib-uglify": "^0.2.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-copy": "^0.1.0",
+    "grunt-postcss": "^0.7.0"
+  }
+}
